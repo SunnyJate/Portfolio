@@ -88,3 +88,18 @@ header ul li a{
     background: transparent;
     color: #333;
 }
+.dayNight{
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 2em;
+}
