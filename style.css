@@ -103,3 +103,13 @@ header ul li a{
     transition: 0.5s;
     font-size: 2em;
 }
+.dayNight ion-icon:nth-child(2),
+.banner.night .dayNight{
+    display: none;
+}
+.banner.night .dayNight ion-icon:nth-child(2){
+    display: block;
+}
+.banner.night{
+    background: #333;
+}
